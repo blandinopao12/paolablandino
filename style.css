@@ -59,6 +59,18 @@ nav .brand-logo {
   text-transform: uppercase;
 }
 
+nav .logo {
+  font-family: 'Bilbo Swash Caps', cursive !important;
+  font-weight: bold;
+  /*text-transform: uppercase;*/
+  font-size: 2.5em;
+  transition: all .2s ease-in-out !important;
+  color: white;
+}
+
+nav .logo:hover {
+  color: black !important;
+}
 
 nav .brand-logo img {
   height: 45px;
@@ -390,6 +402,14 @@ nav .brand-logo img {
   padding: 0 20px 20px;
 }
 
+.titulo:hover {
+  color: gray;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.blog-inner > p {
+  font-size: 1.2em;
+}
 
 .card-subtitle {
   border-bottom: 1px solid #eee;
@@ -1974,12 +1994,12 @@ textarea.materialize-textarea {
   -webkit-transition-timing-function: ease-in-out; /* Safari and Chrome */
     transition-timing-function: ease-in-out;
   transition: 0.2s;
-  font-size: 4em;
+  /*font-size: 4em;*/
 }
 
 .social-networks {
-  margin-top: 30px;
-  margin-left: 0px;
+  margin-top: 125px;
+  margin-left: 50px;
 }
 
 .social-username {
@@ -2088,7 +2108,9 @@ textarea.materialize-textarea {
   .author-name {font-size: 18px;}
   .pagination li {height: 25px;width: 25px;}
   .custom-pagination li a {font-size: 12px;line-height: 25px;}
-
+  .logo {
+    padding-left: 200px;
+  }
 }
 
 @media(max-width:640px ){
@@ -2102,6 +2124,10 @@ textarea.materialize-textarea {
 	.portfolio-popup-inner img {
 		max-width: 80%;
 	}
+
+  .logo {
+    padding-left: 150px;
+  }
 }
 
 
@@ -2171,6 +2197,10 @@ textarea.materialize-textarea {
 	.portfolio-popup-inner p{
 		font-size: 14px;
 	}
+
+  .logo {
+    padding-left: 80px;
+  }
 
 }
 
