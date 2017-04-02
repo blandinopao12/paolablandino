@@ -401,6 +401,19 @@ nav .brand-logo img {
   padding: 0 20px 20px;
 }
 
+.video {
+  margin: 0 !important;
+}
+
+.new-size {
+  width: 100% !important;
+}
+
+.new-margin {
+  margin-top: -22px !important;
+  height: 86px;
+}
+
 .titulo:hover {
   color: gray;
   transition: all 0.2s ease-in-out 0s;
