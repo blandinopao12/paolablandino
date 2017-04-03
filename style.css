@@ -1101,6 +1101,18 @@ display: flex;
   width: 100%;  
 }
 
+.bg {
+  background-color: #ba68c8; 
+}
+
+.new-height{
+  margin-top: 20px;
+  padding-bottom: 20px !important;
+}
+
+.g-recaptcha {
+  clear: both;
+}
 
 .footer-top{
   display: inline;
